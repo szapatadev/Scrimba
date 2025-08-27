@@ -20,6 +20,11 @@ body {
     font-size: 28px;
 }
 
+.links-container {
+    display: flex;
+    align-items: space-around;
+}
+
 .card {
     display: flex;
     justify-content: space-around;
@@ -42,10 +47,10 @@ body {
 }
 
 .grp {
-    margin: 20px;
     padding: 20px 40px 30px;
     border: 10px solid #c8ced3;
     border-radius: 100px;
+    margin: 10px;
 }
 
 .underline {
