@@ -20,9 +20,18 @@ body {
     font-size: 28px;
 }
 
+.links-container {
+    display: flex;
+    align-items: space-around;
+}
+
 .card {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+.item-center {
     text-align: center;
 }
 
@@ -32,6 +41,8 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 100px;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 .btn:hover{
@@ -42,10 +53,15 @@ body {
 }
 
 .grp {
-    margin: 20px;
     padding: 20px 40px 30px;
     border: 10px solid #c8ced3;
     border-radius: 100px;
+    margin: 10px;
+}
+
+.grp p {
+    width: 230px;
+    height: 216px;
 }
 
 .underline {
