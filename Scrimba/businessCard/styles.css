@@ -31,12 +31,18 @@ body {
     text-align: center;
 }
 
+.item-center {
+    text-align: center;
+}
+
 .btn{
     background-color: #c8ced3;
     color: #2b2839;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 100px;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 .btn:hover{
@@ -51,6 +57,11 @@ body {
     border: 10px solid #c8ced3;
     border-radius: 100px;
     margin: 10px;
+}
+
+.grp p {
+    width: 230px;
+    height: 216px;
 }
 
 .underline {
