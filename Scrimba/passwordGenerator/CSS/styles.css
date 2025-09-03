@@ -1,0 +1,97 @@
+/*general*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+}
+
+#body {
+    background-color: #1F2937;
+    padding: 50px;
+    margin:  20px auto;
+    border-radius: 10px;
+}
+
+/*headings*/
+
+h1, p, button {
+    color: #fff;
+}
+
+h2 {
+    color: #4ADF86;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+
+/*buttons*/
+
+#btn-password, #number-div {
+    background-color: #10B981;
+    padding: 15px 25px;
+    margin: 50px 5px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#btn-password:hover, #number-div:hover {
+    background-color: #0b996a;
+}
+
+/*inputs*/
+
+#number-div {
+    display: inline;
+}
+
+label {
+    color: #fff;
+    margin: 0;
+}
+
+input {
+    width: 40px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+/*passwords*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.password {
+    background-color: #273549;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
